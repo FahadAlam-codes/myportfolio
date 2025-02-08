@@ -1,0 +1,152 @@
+<!--
+  Hit RUN to see this project in action!
+  
+  This project will auto-refresh as you edit the HTML, CSS and JS. See README.md for more info (including how to disable auto-refresh and install packages).
+-->
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <nav class="nav-header">
+          <h3 class="my-name">Fahad Alam</h3>
+          <ul class="nav-options">
+            <li class="options"><a href="#about-me">About</a></li>
+            <li class="options"><a href="#skills">Skills</a></li>
+            <li class="options"><a href="#">Projects</a></li>
+            <li class="options"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-mob">
+          <div class="mob-head">
+            <h3 class="my-name">Fahad Alam</h3>
+
+            <i class="menu bx bx-menu"></i>
+          </div>
+        </nav>
+        <div class="options-div active">
+          <ul class="nav-moboptions">
+            <li class="options mobClicked"><a href="about-me">About</a></li>
+            <li class="options mobClicked"><a href="#skills">Skills</a></li>
+            <li class="options mobClicked"><a href="#">Projects</a></li>
+            <li class="options mobClicked"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+      <!-- Intro section -->
+      <section>
+        <div class="intro">
+          <div class="img_div">
+            <div class="img">
+              <img
+                src="https://static.vecteezy.com/system/resources/previews/033/501/245/original/ai-generative-cartoon-portrait-of-a-person-on-transparent-background-png.png"
+              />
+            </div>
+          </div>
+          <div class="info_div">
+            <p>Hello I'm</p>
+            <h2>Fahad Alam</h2>
+            <div class="autoType-div">
+              </i><span class="auto-type"></span>
+            </div>
+            <div class="btns">
+              <button>Download CV</button>
+              <button>Contact Info</button>
+            </div>
+            <div class="sm-options">
+              <a href=""><i class="bx bxl-linkedin"></i></a>
+              <a href=""><i class="bx bxl-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me Section -->
+      <section id="about-me">
+        <div class="aboutme-div">
+          <div class="aboutMe-text">
+            <p>Get To Know More</p>
+            <h2>About Me</h2>
+            </div>
+            <div class="secondary-div">
+              <div class="secImg-div">
+                <img src="https://cdn3d.iconscout.com/3d/premium/thumb/profile-6073860-4996977.png?f=webp" />
+              </div>
+              <div class="secinfo-div">
+                <div class="info-boxes">
+                  <div class="boxes">
+                    <ion-icon name="medal"></ion-icon>
+                  <h3>Experience</h3>
+                    <p>2 years as a Survey Programmer</p>
+                  </div>
+                  <div class="boxes">
+                    <ion-icon name="book"></ion-icon>
+                    <h3>Education</h3>
+                    <p>B.Tech From CSE</p>
+                  </div>
+                </div>
+                  <div class="box-text">Hello! I'm Fahad Alam, a survey programmer with a passion for transitioning into web development. Armed with proficiency in HTML, CSS, JavaScript, and Python, I thrive on creating engaging and dynamic web experiences. My journey began in survey programming, where I honed my skills in logic and user interaction. Now, I'm excited to apply my programming expertise to crafting intuitive interfaces and robust web applications. Let's build something amazing together!</div>
+                
+              </div>
+            </div>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="skills-div">
+        <div class="aboutMe-text">
+          <h2>My Skills</h2>
+        </div>
+
+          <div class="f-skills">
+            <!-- HTML SKILL -->
+            <div class="progress-div">
+              <h3>HTML</h3>
+              <div class="progress-bar">
+                <div class="inner-progress-html progress-bg"></div>
+            </div>
+            </div>
+              <!-- CSS SKILL -->
+            <div class="progress-div">
+                <h3>CSS</h3>
+                <div class="progress-bar">
+                  <div class="inner-progress-css progress-bg"></div>
+              </div>
+            </div>
+              <!-- JAVASCRIPT SKILL -->
+            <div class="progress-div">
+                <h3>JAVASCRIPT</h3>
+                <div class="progress-bar">
+                  <div class="inner-progress-js progress-bg"></div>
+              </div>
+            </div>
+              <!-- PYTHON SKILL -->
+            <div class="progress-div">
+                <h3>PYTHON</h3>
+                <div class="progress-bar">
+                  <div class="inner-progress-py progress-bg"></div>
+              </div>
+            </div>
+          
+        </div>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script type="module" src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
